@@ -1,0 +1,36 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffad7 !important;
+}
+
+.start-page {
+  margin: 200px auto;
+  height: 80px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+
+  &_first-button {
+    background-color: aqua;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  &_second-button {
+    background-color: aquamarine;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+}
